@@ -1,0 +1,32 @@
+{
+  "name": "clibootstrap",
+  "version": "1.0.0",
+  "description": "A bootstrap to handle the UI for a CLI application",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hamish-Bassett/clibootstrap.git"
+  },
+  "keywords": [
+    "CLI",
+    "bootstrap"
+  ],
+  "author": "Hamish Bassett",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Hamish-Bassett/clibootstrap/issues"
+  },
+  "homepage": "https://github.com/Hamish-Bassett/clibootstrap#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "mocha": "^6.1.4",
+    "rewire": "^4.0.1"
+  }
+}
