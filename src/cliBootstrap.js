@@ -22,6 +22,24 @@ class cliBootstrap extends events {
         break;
     }
   }
+
+  /**
+   * @function constructHelp
+   * @description creates a list of events that have listeners bound to them.
+   */
+  constructHelp() {
+    const eventNames = this.eventNames();
+    let message = `help menu for ${process.title}\n`;
+
+    eventNames.forEach((name) => {
+      message += `${name}`;
+    });
+
+    message += 'help - prints this message\n';
+    message += 'exit - terminates this program\n';
+
+    this.helpMessage = message;
+  }
 }
 
 module.exports = cliBootstrap;
